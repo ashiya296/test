@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../hgcgh"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "newhtml"
+	}
+}

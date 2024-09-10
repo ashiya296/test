@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <fieldset>
+      <h1><center>APPLICATION FORM FOR MEDICAL APPOINTMENT</center></h1>
+      <p>
+        <b>NOTE:</b>Form is to be completed and send atleast five days prior to
+        the appointment date
+      </p>
+    
+
+    <form action="">
+      <fieldset>
+        <legend>personal details</legend>
+        <label for="fnme"><b>Name</b> </label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          id="fnme"
+        /><br /><br />
+        <label for="Address"><b>Address</b></label>
+        <input
+          type="text"
+          placeholder="Enter your Address"
+          id="Address"
+        /><br /><br />
+        <label for="Email"><b>Email</b></label>
+        <input
+          type="text"
+          placeholder="Enter your Email"
+          id="Email"
+        /><br /><br />
+        <label for="Phone No"><b>Phone No</b></label>
+        <input
+          type="text"
+          placeholder="Enter your Mobile no"
+          id="Mobile no"
+        /><br /><br />
+        <label for="IQ"><b>IQ</b></label>
+        <input type="text" placeholder="Enter your iq" id="IQ" /><br /><br />
+        <p><b>Gender</b></p>
+        <input type="radio" id="Male" name="rad" />
+        <label for="m">Male</label><br /><br />
+        <input type="radio" name="rad" id="female" />
+        <label for="m">Female</label><br /><br />
+        <input type="radio" name="rad" id="others" />
+        <label for="m">Others</label><br /><br />
+        <label for="date of appointment">Date Of Appointment</label>
+        <input type="date" name="date" id="date" />
+      </fieldset>
+      <fieldset>
+        <h3>Check All The Apply</h3>
+        <input type="checkbox" name="ch" id="ch" />
+        <label for="ch">Iam an Indian Citizen</label><br /><br />
+        <input type="checkbox" name="ch" id="ch" />
+        <label for="ch">Living Abroad</label><br /><br />
+        <input type="checkbox" name="ch" id="ch" />
+        <label for="ch">Iam above 50</label><br /><br />
+        <input type="checkbox" name="ch" id="ch" />
+        <label for="ch">Iam an Indian Citizen </label>
+      </fieldset>
+      <fieldset>
+      <label for="op"><b>Health Card Policies</b></label>
+        <select name="health " id="op">
+
+        <option value=""disabled selected hidden>select any one</option>
+        <option value="">family health plan</option>
+        <option value="">maternity plan</option>
+        </select>
+        <label for="dt"><b>Departments</b></label>
+        <select name="dept" id="dt">
+          <option value=""disabled selected hidden>select any one</option>
+          <option value="">ortho</option>
+          <option value="">neuro</option>
+          <option value="">pharmacy</option>
+          <option value="">pediatric</option>
+          <option value=""></option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend><b>Essay Section</b></legend>
+        <p>In 50  words or more explain your condition
+        </p>
+        <textarea name="ta"placeholder="Enter text here" id="" cols="30" rows="10"></textarea>
+      <p>Please upload contact deatils for 2 Reference</p>
+      <textarea name="tt" id=""placeholder="Enter text here" cols="30" rows="10"></textarea>
+      <p>upload Medical Certificates here
+      <input type="file" name="fl" accept="image/png,image/jpg">
+      </fieldset>
+      <fieldset>
+        <button class="button">send your Application</button>
+      </fieldset>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.flex-parent {
+  width: 900px;
+  height: 400px;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  display: flex;
+  padding: 20px;
+  gap: 2px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flex-child {
+  width: 280px;
+  height: 200px;
+  background-color: brown;
+  border: 2px solid blue;
+}
+.menubar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 50px;
+}

@@ -1,0 +1,27 @@
+.head{
+    height: 600px;
+    width: 400px;
+    margin: solid;
+    margin-left: 400px;
+    background: grey;
+}
+.output{
+
+}
+.screen{
+    margin-left: 36px;
+    width: 324px;
+    height: 46px;
+    margin-top: 14px;
+}
+.row{
+
+}
+.btn{
+    height: 50px;
+    width: 50px;
+}
+.button{
+    margin-left: 40px;
+    padding: 20px;
+}
